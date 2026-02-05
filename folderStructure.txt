@@ -1,0 +1,64 @@
+src/
+│
+├── app/
+│   ├── store.js
+│   ├── router.jsx
+│   └── App.jsx
+│
+├── features/
+│   ├── auth/
+│   │   ├── Login.jsx
+│   │   ├── Logout.jsx
+│   │   ├── authSlice.js
+│   │   └── authAPI.js
+│   │
+│   ├── shifts/
+│   │   ├── StartShift.jsx
+│   │   ├── EndShift.jsx
+│   │   ├── shiftSlice.js
+│   │   └── shiftUtils.js
+│   │
+│   ├── transactions/
+│   │   ├── CashIn.jsx
+│   │   ├── CashOut.jsx
+│   │   ├── TransactionList.jsx
+│   │   ├── transactionSlice.js
+│   │   └── transactionAPI.js
+│   │
+│   ├── records/
+│   │   ├── DailyIncome.jsx
+│   │   ├── ModifyRequest.jsx
+│   │   ├── recordSlice.js
+│   │   └── recordAPI.js
+│   │
+│   ├── admin/
+│   │   ├── AdminDashboard.jsx
+│   │   ├── ApproveRequest.jsx
+│   │   └── adminAPI.js
+│   │
+│   ├── salary/
+│   │   ├── SalarySummary.jsx
+│   │   ├── salaryUtils.js
+│   │   └── salarySlice.js
+│
+├── components/
+│   ├── Button.jsx
+│   ├── Input.jsx
+│   ├── Modal.jsx
+│   └── Table.jsx
+│
+├── hooks/
+│   └── useAuth.js
+│
+├── utils/
+│   ├── money.js
+│   ├── date.js
+│   └── roles.js
+│
+├── services/
+│   └── api.js
+│
+├── styles/
+│   └── global.css
+│
+└── main.jsx
