@@ -1,13 +1,24 @@
 import React from "react";
+import logoImg from "../images/gsm-logo.jpg";
 
 function Header() {
   return (
-    <div className="flex justify-start bg-red-500">
-      <div className="text-black-500 text-2xl font-bold p-8">
-        Computer Professionals for National Democracy
+    <div className="flex bg-blue-500 font-[roboto]">
+      <div className="flex gap-6 items-center p-4 p-6">
+        <img className="size-[5.5rem] flex rounded-[50%] border-2 border-black" src={logoImg} alt="logo" />
+        <div className="column">
+          <div className="text-white text-2xl font-bold">
+            TheusGSM Repair Services Portal System
+          </div>
+          <div className="text-white text-2 font-bold italic">
+            Stores in Parang and Malanday, Marikina City
+          </div>
+        </div>
       </div>
     </div>
   );
 }
+
+//final
 
 export default Header;
