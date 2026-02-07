@@ -1,13 +1,15 @@
 import React from "react";
+import { useState, useEffect } from "react";
+import Welcome from '../../components/Welcome.jsx'
 
-function Landing () {
-    return (
-        <>
-            <div className="max-w-4xl">
-                <div className="font-bold text-[3rem]">Meet the pioneers of <span className="text-indigo-500 italic">phone repairing services</span></div>
-            </div>
-        </>
-    );
+function Landing() {
+  return (
+    <>
+      <div className="max-w-3xl">
+        <Welcome text="</> Meet the pioneers of phone repair services " speed={70} />
+      </div>
+    </>
+  );
 }
 
 export default Landing;
