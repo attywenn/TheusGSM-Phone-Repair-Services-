@@ -18,7 +18,7 @@ jspm_packages/
 .eslintcache
 
 # Build output
-dist/
+# dist/ - keeping in repo for deployment
 dist-ssr/
 
 # Environment variables
