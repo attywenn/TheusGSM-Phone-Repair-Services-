@@ -8,7 +8,7 @@ function Landing() {
     <>
     <div className="flex">
       <div className="max-w-3xl">
-        <Welcome text="</> Meet the pioneers of phone repair services " speed={70} />
+        <Welcome text="</> Meet the pioneers of phone repair services " speed={40} />
       </div>
     </div>  
     </>
