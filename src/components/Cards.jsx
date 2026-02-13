@@ -12,7 +12,6 @@ function Cards ({text, role, image}) {
                     <div className="text-[1rem] text-black">{role}</div>
                 </div>    
             </div>
-        
         </>
     )
 }
